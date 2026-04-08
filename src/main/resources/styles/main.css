@@ -1,0 +1,214 @@
+
+
+.root {
+    -fx-background-color: linear-gradient(to bottom right, #F6EDEB, #F3DAD2);
+    -fx-font-family: "Georgia", "Palatino Linotype", serif;
+}
+
+.app-shell {
+    -fx-background-color: transparent;
+}
+
+.top-shell {
+    -fx-background-color: linear-gradient(to right, #4B2242, #6A2E53);
+    -fx-border-color: #D9B178;
+    -fx-border-width: 0 0 2 0;
+    -fx-effect: dropshadow(three-pass-box, rgba(55, 16, 43, 0.35), 22, 0, 0, 4);
+}
+
+.brand-title {
+    -fx-text-fill: #FBEFE9;
+    -fx-font-size: 30px;
+    -fx-font-weight: 800;
+}
+
+.brand-subtitle {
+    -fx-text-fill: #E8C2B5;
+    -fx-font-size: 12px;
+    -fx-font-style: italic;
+}
+
+.date-chip {
+    -fx-background-color: rgba(251, 239, 233, 0.2);
+    -fx-text-fill: #FBEFE9;
+    -fx-background-radius: 20;
+    -fx-padding: 6 12 6 12;
+    -fx-font-size: 12px;
+    -fx-font-weight: 700;
+}
+
+.nav-row {
+    -fx-padding: 2 0 0 0;
+}
+
+.top-nav-btn {
+    -fx-background-color: rgba(251, 239, 233, 0.12);
+    -fx-text-fill: #FBEFE9;
+    -fx-font-size: 13px;
+    -fx-font-weight: 800;
+    -fx-padding: 8 18 8 18;
+    -fx-background-radius: 999;
+    -fx-border-radius: 999;
+    -fx-border-color: rgba(255, 226, 209, 0.35);
+    -fx-cursor: hand;
+}
+
+.top-nav-btn:hover {
+    -fx-background-color: rgba(255, 222, 205, 0.3);
+}
+
+.top-nav-btn:selected {
+    -fx-background-color: #D9B178;
+    -fx-text-fill: #4B2242;
+    -fx-border-color: #EEC992;
+}
+
+.alert-row {
+    -fx-background-color: rgba(124, 23, 35, 0.3);
+    -fx-background-radius: 10;
+    -fx-padding: 8 10 8 10;
+}
+
+.alert-banner {
+    -fx-text-fill: #FFEDEA;
+    -fx-font-size: 13px;
+    -fx-font-weight: 700;
+}
+
+.alert-dismiss-btn {
+    -fx-background-color: #A12C5A;
+    -fx-text-fill: #FFF7F5;
+    -fx-font-size: 11px;
+    -fx-font-weight: 800;
+    -fx-background-radius: 8;
+    -fx-padding: 4 10 4 10;
+}
+
+.alert-dismiss-btn:hover {
+    -fx-background-color: #8B254E;
+}
+
+.content-area {
+    -fx-background-color: transparent;
+}
+
+.dashboard-card {
+    -fx-background-color: #FFF9F6;
+    -fx-background-radius: 16;
+    -fx-border-color: #E4C3B8;
+    -fx-border-radius: 16;
+    -fx-border-width: 1;
+    -fx-effect: dropshadow(three-pass-box, rgba(100, 43, 70, 0.12), 16, 0, 0, 6);
+}
+
+.dashboard-card:hover {
+    -fx-cursor: hand;
+    -fx-border-color: #D9B178;
+}
+
+.stat-card {
+    -fx-background-color: linear-gradient(to right, #FFF9F6, #FCEEE9);
+    -fx-background-radius: 14;
+    -fx-border-color: #E7CABB;
+    -fx-border-width: 1;
+    -fx-border-radius: 14;
+    -fx-padding: 20 24;
+}
+
+.header-label {
+    -fx-text-fill: #4B2242;
+    -fx-font-size: 29px;
+    -fx-font-weight: 800;
+    -fx-padding: 0 0 8 0;
+}
+
+.button {
+    -fx-background-color: #4B2242;
+    -fx-text-fill: #FFF7F4;
+    -fx-font-weight: 800;
+    -fx-background-radius: 9;
+    -fx-padding: 10 18 10 18;
+}
+
+.button:hover {
+    -fx-background-color: #5E2A52;
+    -fx-cursor: hand;
+}
+
+.button-gold {
+    -fx-background-color: #A12C5A;
+    -fx-text-fill: #FFF5F1;
+}
+
+.button-gold:hover {
+    -fx-background-color: #8B254E;
+}
+
+.text-field, .combo-box, .date-picker, .check-box {
+    -fx-background-color: #FFFDFC;
+    -fx-border-color: #D7B2A7;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-text-fill: #4B2242;
+    -fx-padding: 7 10;
+}
+
+.text-field:focused, .combo-box:focused, .date-picker:focused {
+    -fx-border-color: #A12C5A;
+    -fx-border-width: 1.2;
+}
+
+.combo-box .list-cell {
+    -fx-background-color: #FFF9F6;
+    -fx-text-fill: #4B2242;
+}
+
+.combo-box .list-cell:hover {
+    -fx-background-color: #F7E4DC;
+}
+
+.scroll-pane {
+    -fx-background-color: transparent;
+    -fx-background: transparent;
+}
+
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:vertical {
+    -fx-background-color: transparent;
+    -fx-pref-width: 9;
+}
+
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #D4A2A0;
+    -fx-background-radius: 12;
+}
+
+.scroll-bar:vertical .thumb:hover {
+    -fx-background-color: #C1868D;
+}
+
+.dialog-pane {
+    -fx-background-color: #FFF7F4;
+}
+
+.dialog-pane .header-panel {
+    -fx-background-color: #4B2242;
+}
+
+.dialog-pane .header-panel .label {
+    -fx-text-fill: #FFF2EC;
+    -fx-font-size: 16px;
+    -fx-font-weight: 700;
+}
+
+.dialog-pane .button-bar .button {
+    -fx-background-color: #4B2242;
+    -fx-text-fill: #FFF4EE;
+}
+
+.dialog-pane .button-bar .button:hover {
+    -fx-background-color: #5E2A52;
+}
